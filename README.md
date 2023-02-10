@@ -134,10 +134,18 @@ ESP-IDF จะถามเพื่อยืนยันการเลือก
 [2] กำหนดชื่อ project (ชื่อเดียวกับชื่อ project ใน ESP-IDF) และหมายเลข Serial port (ใช้หมายเลขพร์อเดียวกับตอน download project)
 
 
+### 2.2 การแสดงผลใน Serial terminal
+
+เมื่อเปิด Serial Terminal จะมีการแสดงผลดังตัวอย่างในรูปที่ 13
+
 ![](./Pictures/Picture-13.png)
 
 <p align= "center">
 <B> รูปที่ 13 </B>  การแสดงช้อมูลใน Serial Terminal
 </p>
+
+[1] แท็บ Terminal
+
+[2] เนื้อหาที่ ESP32 แสดงออกมาทาง Serial port
 
 --------
