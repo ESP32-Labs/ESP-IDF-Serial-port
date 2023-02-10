@@ -95,19 +95,51 @@ ESP-IDF จะถามเพื่อยืนยันการเลือก
 <B> รูปที่ 8 </B> การ build project
 </p>
 
-### 2.2 การ download Project
+### 2.2 การตั้งค่าการ download Project
 เมื่อ project ถูก build จนเสร็จเรียบร้อย โปรแกรม ESP-IDF จะรายงานผลการสร้าง (ในตัวอย่างไม่ควรมี error ใดๆ เพราะเรายังไม่ได้แก้ไข source code ของไฟล์ `main.c`) ตามปรากฏใน [1] ของรูปที่ 9 ให้กดปุ่มรูปเฟืองตาม [2] เพื่อกำหนดรายละเอียดของพอร์ตที่จะเชื่อมต่อ
 
 ![](./Pictures/Picture-09.png)
 
 <p align= "center">
-<B> รูปที่ 9 </B>  คำเตือนเมื่อต้องการเปลี่ยนตระกูลของ chip ที่จะใช้ใน project
+<B> รูปที่ 9 </B>  ผลการ build  project และการกำหนดหมายเลข Serial port
 </p>
+
+เมื่อกดปุ่มรูปเฟืองตาม [2] ในรูปที่ 9 จะปรากฏหน้าต่างให้เลือกหมายเลข Serial port ให้เลือกจาก drop down box ตาม [1] ในรูปที่ 10 จากนั้นกด Finish  ตาม [2]
 
 ![](./Pictures/Picture-10.png)
 
+<p align= "center">
+<B> รูปที่ 10 </B>  หน้าต่างการกำหนดหมายเลข Serial port
+</p>
+
+### 2.2 การ download Project
+
 ![](./Pictures/Picture-11.png)
+
+<p align= "center">
+<B> รูปที่ 11 </B>  การ download Project
+</p>
+
+กดปุ่ม  play เพื่อ  download project ลงบอร์ด ESP32
+
+
+### 2.2 การเปิด Serial terminal
 
 ![](./Pictures/Picture-12.png)
 
+<p align= "center">
+<B> รูปที่ 12 </B>  การกำหนดชื่อ project และหมายเลข Serial port เพื่อเปิด Serial terminal
+</p>
+
+[1] กดปุ่ม Terminal เพื่อเปิดหน้าต่าง Launch Terminal 
+
+[2] กำหนดชื่อ project (ชื่อเดียวกับชื่อ project ใน ESP-IDF) และหมายเลข Serial port (ใช้หมายเลขพร์อเดียวกับตอน download project)
+
+
 ![](./Pictures/Picture-13.png)
+
+<p align= "center">
+<B> รูปที่ 13 </B>  การแสดงช้อมูลใน Serial Terminal
+</p>
+
+--------
