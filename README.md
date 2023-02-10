@@ -88,3 +88,26 @@ ESP-IDF จะถามเพื่อยืนยันการเลือก
 ## 2 การ build และ download Project 
 
 ### 2.1 การ build Project
+
+
+![](./Pictures/Picture-08.png)
+<p align= "center">
+<B> รูปที่ 8 </B> การ build project
+</p>
+
+### 2.2 การ download Project
+เมื่อ project ถูก build จนเสร็จเรียบร้อย โปรแกรม ESP-IDF จะรายงานผลการสร้าง (ในตัวอย่างไม่ควรมี error ใดๆ เพราะเรายังไม่ได้แก้ไข source code ของไฟล์ `main.c`) ตามปรากฏใน [1] ของรูปที่ 9 ให้กดปุ่มรูปเฟืองตาม [2] เพื่อกำหนดรายละเอียดของพอร์ตที่จะเชื่อมต่อ
+
+![](./Pictures/Picture-09.png)
+
+<p align= "center">
+<B> รูปที่ 9 </B>  คำเตือนเมื่อต้องการเปลี่ยนตระกูลของ chip ที่จะใช้ใน project
+</p>
+
+![](./Pictures/Picture-10.png)
+
+![](./Pictures/Picture-11.png)
+
+![](./Pictures/Picture-12.png)
+
+![](./Pictures/Picture-13.png)
