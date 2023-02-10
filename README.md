@@ -120,8 +120,9 @@ ESP-IDF จะถามเพื่อยืนยันการเลือก
 
 กดปุ่ม  play เพื่อ  download project ลงบอร์ด ESP32
 
+## 3 การใช้งาน  Serial terminal
 
-### 2.4 การเปิด Serial terminal
+### 3.1 การเปิด Serial terminal
 
 ![](./Pictures/Picture-12.png)
 
@@ -134,7 +135,7 @@ ESP-IDF จะถามเพื่อยืนยันการเลือก
 [2] กำหนดชื่อ project (ชื่อเดียวกับชื่อ project ใน ESP-IDF) และหมายเลข Serial port (ใช้หมายเลขพร์อเดียวกับตอน download project)
 
 
-### 2.5 การแสดงผลใน Serial terminal
+### 3.2 การแสดงผลใน Serial terminal
 
 เมื่อเปิด Serial Terminal จะมีการแสดงผลดังตัวอย่างในรูปที่ 13
 
