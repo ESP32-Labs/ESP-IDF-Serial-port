@@ -15,12 +15,12 @@
 
 จากหน้าแรก เราสามารถสร้าง project ใหม่ได้ 2 วิธีคือ เลือกจาก Link ในแท็บ Project Explorer หรือสร้างจากเมนู ดังรูปที่ 2 และ 3
 
-<p align= "center" > <img src="./Pictures/Picture-02.png" width="400" > </p>
+<p align= "center" > <img src="./Pictures/Picture-02.png" width="362" > </p>
 
 <p align= "center"> <B> รูปที่ 2 </B> การสร้าง Project ใหม่โดยเลือกจากลิงค์ `Create a new EspressIf IDF project` </p>
 
 
-![](./Pictures/Picture-03.png)
+<p align= "center" > <img src="./Pictures/Picture-03.png" width="500" > </p>
 
 <p align= "center">
 <B> รูปที่ 3 </B>  การสร้าง Project ใหม่โดยเลือกจากเมนู `File`  -> `New`  -> `EspressIf IDF project`
